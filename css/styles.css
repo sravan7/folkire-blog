@@ -1,0 +1,171 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.small{
+  display: none;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 0 5%;
+  padding: 0;
+  width: 90%;
+  box-shadow: 0 0 1px 0 #999;
+}
+h1{
+  margin: 20px auto;
+  font-weight: 400;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  margin: 20px auto;
+  list-style-type: none;
+}
+li{
+  display: inline;
+  padding: 0 2em;
+}
+li>a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
+  color: #444;
+  text-decoration: none;
+  border-bottom: 2px solid #00f;
+}
+article{
+  margin: 10px 5%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.article-holder{
+  border: 1px solid #eee;
+  width: 28%;
+  box-shadow: 0 0 10px 0 #999;
+  margin:2% 2% ;
+}
+.article-title{
+  display: block;
+  margin: auto;
+  box-sizing: content-box;
+}
+.author{
+  display: flex;
+  justify-content: space-between;
+}
+.author-img{
+  width: 38px;
+  height: 36px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 #aaa;
+  margin: 1em;
+}
+.author-name{
+  margin: auto 1em;
+}
+
+.short-content{
+  width: 100%;
+  display: inline;
+  word-wrap: break-word;
+  font-family: 'Montserra', sans-serif;
+  font-size: 18px;
+}
+.short-content>p{
+  margin: 10px;
+}
+.article-vote{
+  font-size: 24px;
+  color: #8db;
+  border: 1px solid #ddd;
+}
+.article-vote>i{
+  padding: 0.5em 1em;
+}
+footer{
+  margin: 0 auto;
+  text-align: center;s
+}
+.footer-content{
+  display: flex;
+  justify-content: center;
+}
+hr{
+  color: #000;
+  background-color: #222;
+}
+footer>p{
+  color: #00f;
+  font-size: 18px;
+}
+@media screen and (max-width: 1024px){
+  header{
+    width: 100%;
+    margin: 0;
+  }
+  .article-holder{
+    width: 44%;
+    margin: 1% 2%;
+  }
+}
+@media screen and (max-width: 768px){
+  header{
+    width: 100%;
+    margin: 0;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .short-content{
+    font-size: 14px;
+  }
+
+}
+@media screen and (max-width: 640px){
+
+  header{
+    width: 100%;
+    margin: 0;
+  }
+  h1{
+    font-size: 20px;
+  }
+  .article-holder{
+    width: 98%;
+    margin: 2% 2%;
+  }
+.large{
+  display: none;
+}
+li{
+  font-size: 16px;
+  padding: 0 0.45em;
+}
+.small{
+  display: block;
+}
+}
+@media screen and (max-width: 320px){
+  header{
+    width: 100%;
+    margin: 0;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .short-content{
+    font-size: 14px;
+  }
+
+}
